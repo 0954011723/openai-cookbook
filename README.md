@@ -1,3 +1,8 @@
+<div style="font-size: 1.5rem;">
+  <a href="./README.md">正體中文</a> |
+  <a href="./README.en.md">English</a>
+</div>
+</br>
 # OpenAI Cookbook
 
 The OpenAI Cookbook shares example code for accomplishing common tasks with the [OpenAI API].
