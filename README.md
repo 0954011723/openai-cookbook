@@ -5,65 +5,66 @@
 </br>
 # OpenAI Cookbook
 
-OpenAI Cookbook 分享了使用 [OpenAI API] 完成常見任務的範例代碼。
+OpenAI Cookbook 是分享如何使用 [OpenAI API] 完成常見任務的範例程式碼。
 
-要運行這些範例，您需要一個 OpenAI 帳戶和相關的 API 金鑰 ( [創建免費帳戶][api signup] )。
+要使用這些範例，您需要一個 OpenAI 帳戶和相關的 API 金鑰 ( [註冊免費帳戶][api signup] )。
 
-大部分的代碼範例都是用 Python 編寫的，雖然這些概念也可以應用到任何語言中。
+大部分的程式碼範例都是用 Python 編寫的，這些概念也可以應用到任何程式語言中。
 
 ## 最近新增 🆕 ✨
 
-- [如何格式化 ChatGPT 模型的輸入](examples/How_to_format_inputs_to_ChatGPT_models.ipynb) [2023年3月1日]
-- [使用 Redis 的向量數據庫進行嵌入搜索](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) [2023年2月15日]
-- [使用嵌入進行網站問答](https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a) [2023年2月11日]
-- [使用嵌入進行檔案問答](https://github.com/openai/openai-cookbook/tree/main/apps/file-q-and-a) [2023年2月11日]
-- [在 Weights & Biases 中可視化嵌入](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb) [2023年2月9日]
-- [使用 Pinecone 進行檢索增強生成式問答](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb) [2023年2月8日]
+- [如何將輸入格式化為 ChatGPT 模型](examples/How_to_format_inputs_to_ChatGPT_models.ipynb) [2023年3月1日]
+- [使用 Redis 的向量資料庫進行嵌入式搜尋](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) [2023年2月15日]
+- [使用嵌入式進行網站問答](https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a) [2023年2月11日]
+- [使用嵌入式進行檔案問答](https://github.com/openai/openai-cookbook/tree/main/apps/file-q-and-a) [2023年2月11日]
+- [在 Weights & Biases 中視覺化嵌入](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb) [2023年2月9日]
+- [使用 Pinecone 的檢索增強產生問答](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb) [2023年2月8日]
 
 ## 指南和範例
 
 - API 使用
   - [如何處理速率限制](examples/How_to_handle_rate_limits.ipynb)
-    - [避免觸發速率限制的並行處理腳本示例](examples/api_request_parallel_processor.py)
-  - [如何使用 tiktoken 計算令牌數量](examples/How_to_count_tokens_with_tiktoken.ipynb)
-  - [如何流式傳輸完成結果](examples/How_to_stream_completions.ipynb)
+    - [避免觸發速率限制的並行處理範例腳本](examples/api_request_parallel_processor.py)
+  - [如何使用 tiktoken 計算令牌數](examples/How_to_count_tokens_with_tiktoken.ipynb)
+  - [如何串流完成](examples/How_to_stream_completions.ipynb)
 - ChatGPT
-  - [如何格式化 ChatGPT 模型的輸入](examples/How_to_format_inputs_to_ChatGPT_models.ipynb)
+  - [如何將輸入格式化為 ChatGPT 模型](examples/How_to_format_inputs_to_ChatGPT_models.ipynb)
 - GPT-3
   - [指南：如何使用大型語言模型](how_to_work_with_large_language_models.md)
   - [指南：提高可靠性的技巧](techniques_to_improve_reliability.md)
-  - [如何使用多步提示編寫單元測試](examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)
-  - [文本寫作範例](text_writing_examples.md)
-  - [文本解釋範例](text_explanation_examples.md)
-  - [文本編輯範例](text_editing_examples.md)
-  - [代碼寫作範例](code_writing_examples.md)
-  - [代碼解釋範例](code_explanation_examples.md)
-  - [代碼編輯範例](code_editing_examples.md)
-- 嵌入
-  - [文本比較範例](text_comparison_examples.md)
-  - [如何獲取嵌入](examples/Get_embeddings.ipynb)
-  - [使用嵌入進行問答](examples/Question_answering_using_embeddings.ipynb)
-  - [使用嵌入進行語義搜索](examples/Semantic_text_search_using_embeddings.ipynb)
-  - [使用嵌入進行推薦](examples/Recommendation_using_embeddings.ipynb)
-  - [聚類嵌入](examples/Clustering.ipynb)
-  - [在二維中可視化嵌入](examples/Visualizing_embeddings_in_2D.ipynb) 或 [三維中](examples/Visualizing_embeddings_in_3D.ipynb)
-  - [嵌入長文本](examples/Embedding_long_inputs.ipynb)
-- GPT-3 微調
-  - [指南：微調 GPT-3 分類文本的最佳實踐](https://docs.google.com/document/d/1rqj7dkuvl7Byd5KQPUJRxc19BJt8wo0yHNwK84KfU3Q/edit)
+  - [使用多步提示撰寫單元測試的範例](examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)     
+  - [文字撰寫範例](text_writing_examples.md)
+  - [文字解釋範例](text_explanation_examples.md)
+  - [文字編輯範例](text_editing_examples.md)
+  - [程式碼撰寫範例](code_writing_examples.md)
+  - [程式碼解釋範例](code_explanation_examples.md)
+  - [程式碼編輯範例](code_editing_examples.md)
+- 嵌入式
+  - [文字比較範例](text_comparison_examples.md)
+  - [如何取得嵌入式](examples/Get_embeddings.ipynb)
+  - [使用嵌入式進行問答](examples/Question_answering_using_embeddings.ipynb)
+  - [使用嵌入式進行語意搜索](examples/Semantic_text_search_using_embeddings.ipynb)
+  - [使用嵌入式進行推薦](examples/Recommendation_using_embeddings.ipynb)
+  - [叢集嵌入式](examples/Clustering.ipynb)
+  - 在 [2D](examples/Visualizing_embeddings_in_2D.ipynb) 或 [3D](examples/Visualizing_embeddings_in_3D.ipynb) 視覺化嵌入
+  - [嵌入長文字](examples/Embedding_long_inputs.ipynb)
+- GPT-3 微調 `Fine-tuning`
+  - [指南：微調 GPT-3 進行分類文字的最佳做法](https://docs.google.com/document/d/1rqj7dkuvl7Byd5KQPUJRxc19BJt8wo0yHNwK84KfU3Q/edit)
   - [微調分類](examples/Fine-tuned_classification.ipynb)
 - DALL-E
-  - [如何使用 DALL-E 生成和編輯圖像](examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)
+  - [如何使用 DALL-E 產生和編輯圖像](examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)
 - Azure OpenAI (Microsoft Azure 的替代 API)
   - [如何從 Azure OpenAI 獲取完成結果](examples/azure/completions.ipynb)
-  - [如何從 Azure OpenAI 獲取嵌入](examples/azure/embeddings.ipynb)
+  - [如何從 Azure OpenAI 獲取嵌入式](examples/azure/embeddings.ipynb)
   - [如何使用 Azure OpenAI 微調 GPT-3](examples/azure/finetuning.ipynb)
+  
 - 應用程式
   - [檔案問答](apps/file-q-and-a/)
-  - [網頁爬蟲問答](apps/web-crawl-q-and-a)
+  - [網路爬蟲/`Web Crawl` 問答](apps/web-crawl-q-and-a)
 
 ## 相關資源
 
-除了這裡的代碼範例外，您還可以從以下資源學習關於 [OpenAI API]：
+除了這裡的程式碼範例，您還可以從以下資源中學習關於 [OpenAI API]：
 
 - 在 [OpenAI Playground] 中試用 API
 - 在 [OpenAI Documentation] 中閱讀有關 API 的資訊
@@ -71,11 +72,11 @@ OpenAI Cookbook 分享了使用 [OpenAI API] 完成常見任務的範例代碼�
 - 在 [OpenAI Help Center] 中尋求幫助
 - 在 [OpenAI Examples] 中查看範例提示
 - 體驗免費的研究預覽版本的 [ChatGPT]
-- 保持更新，關注 [OpenAI Blog]
+- 保持最新狀態，瀏覽 [OpenAI Blog]
 
 ## 貢獻
 
-如果您有任何想要看到的範例或指南，歡迎在 [issues page] 上提出建議。
+如果您想看到其他範例或指南，請在 [issues 頁面] 上提出建議。
 
 [chatgpt]: https://chat.openai.com/
 [openai api]: https://openai.com/api/
